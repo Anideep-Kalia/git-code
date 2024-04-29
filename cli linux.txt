@@ -1,0 +1,29 @@
+pwd -> path
+cd.. -> go back once
+cd../.. -> go back 2 folders
+touch -> read the file
+cat -> create the file
+vi -> let you edit the file lys
+cp -> copy the folder : cp -r test3 test2   // into test2
+   -> copy the file : cp test3 test2
+mv -> move the file into the folder
+> shows all the hidden files: ls -la
+> ls -> shows all the code for linux 
+> rmdir {folder name} -> delete folder
+> rm -rf .git  -> to remove git from project
+
+> go to 'add locally hosted code' in github to add preexisted project to github
+---------------------------------------------------------------------------------------------
+
+>git remote remove origin  : used to remove link between code and repo
+
+> DELETE .git : to remove all the relations on present code with any git repo 
+
+>pushing code to new repo
+git intit
+git add .
+git commit -m "initialisation"
+git remote add origin {github repo link}      
+git push -u origin master                || git checkout -b <branch_name>
+                                         || git push -u origin <branch_name>
+
