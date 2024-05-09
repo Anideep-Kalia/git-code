@@ -11,6 +11,10 @@ mv -> move the file into the folder
 > ls -> shows all the code for linux 
 > rmdir {folder name} -> delete folder
 > rm -rf .git  -> to remove git from project
+> mkdir -r file1/file2/file3/file4/actual_file
+> man rm: manual for rm codes
+> rmdir: only works when directory is empty
+> rm -r {directory name} : this is code for deleting the filled directory 
 
 > go to 'add locally hosted code' in github to add preexisted project to github
 ---------------------------------------------------------------------------------------------
