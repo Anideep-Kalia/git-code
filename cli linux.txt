@@ -1,16 +1,16 @@
 -> every command has manual so you can see that by typing : man {command name}
-history
-which {filename} : for finding the file
-pwd -> path
-cd.. -> go back once
-cd../.. -> go back 2 folders
-touch -> read the file
-cat -> create the file
-vi -> let you edit the file lys
-cp -> copy the folder : cp -r test3 test2   // into test2
+> history
+> which {filename} : for finding the file
+> pwd -> path
+> cd.. -> go back once
+> cd../.. -> go back 2 folders
+> touch -> read the file
+> cat -> create the file
+> vi -> let you edit the file lys
+> cp -> copy the folder : cp -r test3 test2   // into test2
    -> copy the file : cp test3 test2
-mv -> move the file into the folder 
-this command is also used for renaming
+> mv -> move the file into the folder 
+> this command is also used for renaming
 > shows all the hidden files: ls -la
 > ls -> shows all the code for linux 
 > rmdir {folder name} -> delete folder
@@ -20,6 +20,10 @@ this command is also used for renaming
 > rmdir: only works when directory is empty
 > rm -r {directory name} : this is code for deleting the filled directory
 > '~' : this means home directory used when t mov or copy 
+> ping {url name} : to check the url is on or not
+> nslookup {url name} : for seeing details of url
+> curl {url name}: for seeing the url in html
+> wget {url name} : for downloading file
 
 > go to 'add locally hosted code' in github to add preexisted project to github
 ---------------------------------------------------------------------------------------------
@@ -46,5 +50,5 @@ VIM
 > esc for commands
 > wq: saving and exiting
 > qa!: exiting without saving
-
+> vi {filename}: to create file
 
