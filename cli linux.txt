@@ -33,3 +33,7 @@ git remote add origin {github repo link}
 git push -u origin master                || git checkout -b <branch_name>
                                          || git push -u origin <branch_name>
 
+--------------------------------------------------------------------------------
+
+> to connect to aws we can use ssh key too which we can get at top connect button 
+
