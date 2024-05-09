@@ -6,7 +6,8 @@ cat -> create the file
 vi -> let you edit the file lys
 cp -> copy the folder : cp -r test3 test2   // into test2
    -> copy the file : cp test3 test2
-mv -> move the file into the folder
+mv -> move the file into the folder 
+this command is also used for renaming
 > shows all the hidden files: ls -la
 > ls -> shows all the code for linux 
 > rmdir {folder name} -> delete folder
@@ -14,7 +15,8 @@ mv -> move the file into the folder
 > mkdir -r file1/file2/file3/file4/actual_file
 > man rm: manual for rm codes
 > rmdir: only works when directory is empty
-> rm -r {directory name} : this is code for deleting the filled directory 
+> rm -r {directory name} : this is code for deleting the filled directory
+> '~' : this means home directory used when t mov or copy 
 
 > go to 'add locally hosted code' in github to add preexisted project to github
 ---------------------------------------------------------------------------------------------
