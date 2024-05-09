@@ -1,3 +1,6 @@
+-> every command has manual so you can see that by typing : man {command name}
+history
+which {filename} : for finding the file
 pwd -> path
 cd.. -> go back once
 cd../.. -> go back 2 folders
@@ -35,5 +38,13 @@ git push -u origin master                || git checkout -b <branch_name>
 
 --------------------------------------------------------------------------------
 
-> to connect to aws we can use ssh key too which we can get at top connect button 
+> to connect to aws we can use ssh key too which we can get at top connect button the command goes like this : ssh -i {pem file name}.pem ubuntu@{ip address} 
+
+-------------------------------------------------------------------------------- 
+VIM
+> i: start working
+> esc for commands
+> wq: saving and exiting
+> qa!: exiting without saving
+
 
