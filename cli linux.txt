@@ -1,3 +1,5 @@
+MOST USEFUL : if you want to edit repo on browser itself then just go on the repo and press "." button it will open the web browser editor
+
 -> every command has manual so you can see that by typing : man {command name}
 > history
 > which {filename} : for finding the file
