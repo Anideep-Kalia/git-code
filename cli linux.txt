@@ -48,9 +48,10 @@ git push -u origin master                || git checkout -b <branch_name>
 
 -------------------------------------------------------------------------------- 
 VIM
-> i: start working
-> esc for commands
-> wq: saving and exiting
-> qa!: exiting without saving
-> vi {filename}: to create file
+press ":" before any command
+> i => start working
+> esc => or commands
+> wq => saving and exiting
+> qa! => exiting without saving
+> vi {filename} =>  to create file
 
