@@ -26,6 +26,7 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > nslookup {url name} : for seeing details of url
 > curl {url name}: for seeing the url in html
 > wget {url name} : for downloading file
+> {filename} | grep {word_yc} : will find the word {word_yc} and show in log where it was written
 
 > go to 'add locally hosted code' in github to add preexisted project to github
 ---------------------------------------------------------------------------------------------
