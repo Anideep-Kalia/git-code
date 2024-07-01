@@ -2,6 +2,7 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 
 -> every command has manual so you can see that by typing : man {command name}
 > history
+> ps -ef : show all the existing running programs
 > which {filename} : for finding the file
 > pwd -> path
 > cd.. -> go back once
