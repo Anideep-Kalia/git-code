@@ -28,6 +28,7 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > curl {url name}: for seeing the url in html
 > wget {url name} : for downloading file
 > {filename} | grep {word_yc} : will find the word {word_yc} and show in log where it was written
+> source ~/.bashrc : used when package is installed and don't want to restart terminal for that
 
 -> cp -r assets/ /var/www/html/  => copy recursively used to copy the contents of folder from one to another
 
