@@ -29,7 +29,14 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > wget {url name} : for downloading file
 > {filename} | grep {word_yc} : will find the word {word_yc} and show in log where it was written
 > source ~/.bashrc : used when package is installed and don't want to restart terminal for that
-> git remote add upstream https://github.com/oppia/oppia.git : using this we can pull code directly from upstream i.e. oppia original repo without affecting our origin repo i.e. forked repo
+
+UPSTREAM COMMANDS
+> git remote add upstream https://github.com/oppia/oppia.git
+> git remote -v
+> git fetch upstream   => nothing will change with this command only updates will downloaded
+> git checkout main
+> git merge upstream/main
+
 
 
 -> cp -r assets/ /var/www/html/  => copy recursively used to copy the contents of folder from one to another
