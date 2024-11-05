@@ -30,6 +30,7 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > {filename} | grep {word_yc} : will find the word {word_yc} and show in log where it was written
 > source ~/.bashrc : used when package is installed and don't want to restart terminal for that
 > git grep "need to find"  => write in terminal in which your repo is there
+> git fetch : better version of git pull as it doesn't merge the codes
 
 UPSTREAM COMMANDS
 > git remote add upstream https://github.com/oppia/oppia.git
