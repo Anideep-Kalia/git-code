@@ -36,6 +36,7 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 
 
 ------------------GIT----------------------------------
+> NEVER USE git pull and git merge
 > git grep "need to find"  => write in terminal in which your repo is there
 > git fetch : better version of git pull as it doesn't merge the codes
 > git remote remove origin  : used to remove link between code and repo
@@ -55,6 +56,11 @@ CLONE BRANCH FROM GITHUB REPO
 -> git branch => to see the branches and current branch
 -> git clone again
 
+SYNCHORINING FORK
+-> fetch upstream
+-> git checkout main
+-> git rebase upstream/main
+
 UPSTREAM COMMANDS
 > git remote add upstream https://github.com/oppia/oppia.git
 > git remote -v
@@ -65,6 +71,7 @@ UPSTREAM COMMANDS
 UNOD ANY STAGE
 > git reflog  {get name of the last commit}
 > git reset --hard {name_of_stage}    
+> git cherry-pick 67aea58     => for cherry-pick the stage which was reset before
 
 PUSHING CODE TO NEW REPO
 git intit
