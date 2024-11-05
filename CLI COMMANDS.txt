@@ -1,5 +1,6 @@
 MOST USEFUL : if you want to edit repo on browser itself then just go on the repo and press "." button it will open the web browser editor
 
+--------------------------CLI---------------
 -> every command has manual so you can see that by typing : man {command name}
 > history
 > ps -ef : show all the existing running programs
@@ -29,9 +30,21 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > wget {url name} : for downloading file
 > {filename} | grep {word_yc} : will find the word {word_yc} and show in log where it was written
 > source ~/.bashrc : used when package is installed and don't want to restart terminal for that
+> cp -r assets/ /var/www/html/  => copy recursively used to copy the contents of folder from one to another
+
+
+------------------GIT----------------------------------
 > git grep "need to find"  => write in terminal in which your repo is there
 > git fetch : better version of git pull as it doesn't merge the codes
+> git remote remove origin  : used to remove link between code and repo
+> go to 'add locally hosted code' in github to add preexisted project to GitHub
+> DELETE .git : to remove all the relations on present code with any git repo 
 
+CLONE BRANCH FROM GITHUB REPO
+-> git clone {url_of_repo} master
+-> git checkout {branch_name}
+-> git branch => to see the branches and current branch
+-> git clone again
 
 UPSTREAM COMMANDS
 > git remote add upstream https://github.com/oppia/oppia.git
@@ -40,24 +53,7 @@ UPSTREAM COMMANDS
 > git checkout main
 > git merge upstream/main
 
-
-
--> cp -r assets/ /var/www/html/  => copy recursively used to copy the contents of folder from one to another
-
-> go to 'add locally hosted code' in github to add preexisted project to github
----------------------------------------------------------------------------------------------
-
->git remote remove origin  : used to remove link between code and repo
-
-> DELETE .git : to remove all the relations on present code with any git repo 
-
-> cloning branch of repo from github
--> git clone {url_of_repo} master
--> git checkout {branch_name}
--> git branch => to see the branches and current branch
--> git clone again
-
->pushing code to new repo
+PUSHING CODE TO NEW REPO
 git intit
 git add .
 git commit -m "initialisation"
@@ -65,12 +61,14 @@ git remote add origin {github repo link}
 git push -u origin master                || git checkout -b <branch_name>
                                          || git push -u origin <branch_name>
 
---------------------------------------------------------------------------------
+
+
+
+---------------------------------------AWS-----------------------------------------
 
 > to connect to aws we can use ssh key too which we can get at top connect button the command goes like this : ssh -i {pem file name}.pem ubuntu@{ip address} 
 
--------------------------------------------------------------------------------- 
-VIM
+-----------------------------------------VIM--------------------------------------- 
 press ":" before any command
 > i => start working
 > esc => or commands
