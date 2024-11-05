@@ -62,9 +62,9 @@ UPSTREAM COMMANDS
 > git checkout main
 > git merge upstream/main
 
-UNOD MERGED COMMIT
+UNOD ANY STAGE
 > git reflog  {get name of the last commit}
-> git reset --hard 13bea0e    
+> git reset --hard {name_of_stage}    
 
 PUSHING CODE TO NEW REPO
 git intit
