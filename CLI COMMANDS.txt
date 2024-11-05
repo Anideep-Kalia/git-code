@@ -33,12 +33,15 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > cp -r assets/ /var/www/html/  => copy recursively used to copy the contents of folder from one to another
 
 
+
+
 ------------------GIT----------------------------------
 > git grep "need to find"  => write in terminal in which your repo is there
 > git fetch : better version of git pull as it doesn't merge the codes
 > git remote remove origin  : used to remove link between code and repo
 > go to 'add locally hosted code' in github to add preexisted project to GitHub
 > DELETE .git : to remove all the relations on present code with any git repo 
+> git rebase is better than git merge*
 
 CLONE BRANCH FROM GITHUB REPO
 -> git clone {url_of_repo} master
@@ -62,7 +65,7 @@ git push -u origin master                || git checkout -b <branch_name>
                                          || git push -u origin <branch_name>
 
 
-
+*git merge merges history if both the repos together but rebase made changes to original code line by line as done in featured branch
 
 ---------------------------------------AWS-----------------------------------------
 
