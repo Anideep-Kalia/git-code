@@ -42,6 +42,12 @@ MOST USEFUL : if you want to edit repo on browser itself then just go on the rep
 > go to 'add locally hosted code' in github to add preexisted project to GitHub
 > DELETE .git : to remove all the relations on present code with any git repo 
 > git rebase is better than git merge*
+> git push origin +{featured_branch_name}   => this is force push
+
+CHECKOUT
+> git checkout -b issue-1755-fail2ban upstream/main   {creating branch based on upstream main repo}
+> git checkout -b issue-1755-fail2ban    {will be based on current branch you are working on}
+> git checkout -b issue-1755-fail2ban origin/main   {will be based on main branch of repo}
 
 CLONE BRANCH FROM GITHUB REPO
 -> git clone {url_of_repo} master
@@ -55,6 +61,10 @@ UPSTREAM COMMANDS
 > git fetch upstream   => nothing will change with this command only updates will downloaded
 > git checkout main
 > git merge upstream/main
+
+UNOD MERGED COMMIT
+> git reflog  {get name of the last commit}
+> git reset --hard 13bea0e    
 
 PUSHING CODE TO NEW REPO
 git intit
